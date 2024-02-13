@@ -1,0 +1,75 @@
+name: e_commerse
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+#------------Packages----------# 
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Utility Packages
+
+  #Icons
+  cupertino_icons: ^1.0.2
+  iconsax: ^0.0.8
+
+  #State menagement 
+  get: ^4.6.5
+
+  #Product specific
+
+  #--------------Packages End -------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Italic.ttf
+        - asset:  assets/fonts/Poppins-MediumItalic.ttf
+          weight : 500
+          style: italic          
+        - asset:  assets/fonts/Poppins-Medium.ttf
+          weight : 500
+          style: italic
+          
+
+    - family: coolvetice
+      fonts:
+        - asset: assets/fonts/coolvetica condensed rg.ttf
+    - family: Poppins-Italic
+      
+
+
+  assets:
+    - assets/images/
+    - assets/icons/brands/
+    - assets/logos/
+
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #           weigth  : 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
