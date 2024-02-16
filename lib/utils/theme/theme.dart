@@ -2,7 +2,7 @@ import 'package:e_commerse/utils/theme/custom_themes/app_bar_theme.dart';
 import 'package:e_commerse/utils/theme/custom_themes/bottom_sheet_theme.dart';
 import 'package:e_commerse/utils/theme/custom_themes/check_box_theme.dart';
 import 'package:e_commerse/utils/theme/custom_themes/chip_theme.dart';
-import 'package:e_commerse/utils/theme/custom_themes/elevadetButto_theme_data.dart';
+import 'package:e_commerse/utils/theme/custom_themes/elevadet_button_theme_data.dart';
 import 'package:e_commerse/utils/theme/custom_themes/outline_button_theme.dart';
 import 'package:e_commerse/utils/theme/custom_themes/text_field_theme.dart';
 import 'package:e_commerse/utils/theme/custom_themes/text_theme.dart';
